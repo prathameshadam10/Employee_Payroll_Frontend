@@ -8,12 +8,13 @@
     <title>Employee Payroll form</title>
     <link rel="stylesheet" href="employeePayroll.css">
     <script defer src="employeepayroll.js"></script>
+    <script defer src="EmployeePayrollData.js"></script>
 </head>
 <body>
     <header class="header-content header">
         <div class="logo-content">
           
-            <img src="https://t3.ftcdn.net/jpg/01/59/39/40/360_F_159394081_0PFpyvtIjd9DOcM9bvZiiDt3pGYtapfR.jpg" alt="" width="40" height="40">
+            <img src=".\Images\logo.png" alt="">
             <div>
                 <span class="emp-text">Employee</span><br>
                 <span class="emp-text emp-payroll">PAYROLL</span>
@@ -22,7 +23,7 @@
     </header>
 
     <div class="form-content">
-    <form class="form" action="#" onsubmit="save();return false">
+    <form class="form" action="#" onsubmit="save(event);return false">
         <div class="form-head">
             Employee Payroll form </div>
             <div class="row-content">
@@ -34,20 +35,20 @@
                 <label class="lable text" for="profile">Profile image</label>
                 <div class="profile-radio-content">
                     <label>
-                        <input type="radio" id="profile1" name="profile" value="https://thumbs.dreamstime.com/b/profile-picture-caucasian-male-employee-posing-office-happy-young-worker-look-camera-workplace-headshot-portrait-smiling-190186649.jpg" required>
-                        <img class="profile" id='image1' src="https://thumbs.dreamstime.com/b/profile-picture-caucasian-male-employee-posing-office-happy-young-worker-look-camera-workplace-headshot-portrait-smiling-190186649.jpg">
+                        <input type="radio" id="profile1" name="profile" value=".\Images\Ellipse -10.png" required>
+                        <img class="profile" id='image1' src=".\Images\Ellipse -10.png">
                     </label>
                     <label>
-                        <input type="radio" id="profile2" name="profile" value="https://www.viennashots.com/wp-content/uploads/2021/05/0283_Portait_HGI_AL-e1559232363840.jpg" required>
-                        <img class="profile" id='image2' src="https://www.viennashots.com/wp-content/uploads/2021/05/0283_Portait_HGI_AL-e1559232363840.jpg">
+                        <input type="radio" id="profile2" name="profile" value=".\Images\Ellipse -3.png" required>
+                        <img class="profile" id='image2' src=".\Images\Ellipse -3.png">
                     </label>
                     <label>
-                        <input type="radio" id="profile3" name="profile" value="https://cdn.xxl.thumbs.canstockphoto.com/happy-employee-portrait-of-successful-businesswoman-looking-at-camera-with-smile-picture_csp7091881.jpg" required>
-                        <img class="profile" id='image3' src="https://cdn.xxl.thumbs.canstockphoto.com/happy-employee-portrait-of-successful-businesswoman-looking-at-camera-with-smile-picture_csp7091881.jpg">
+                        <input type="radio" id="profile3" name="profile" value=".\Images\Ellipse -2.png" required>
+                        <img class="profile" id='image3' src=".\Images\Ellipse -2.png">
                     </label>
                     <label>
-                        <input type="radio" id="profile4" name="profile" value="https://thumbs.dreamstime.com/b/happy-professional-employee-man-smiling-portrait-face-223792377.jpg" required>
-                        <img class="profile" id='image4' src="https://thumbs.dreamstime.com/b/happy-professional-employee-man-smiling-portrait-face-223792377.jpg">
+                        <input type="radio" id="profile4" name="profile" value=".\Images\Ellipse -1.png" required>
+                        <img class="profile" id='image4' src=".\Images\Ellipse -1.png">
                     </label>
                     </div>
                     </div>
